@@ -5,14 +5,14 @@
 @description
 
 <div class="jumbotron">
-	<h1>Hello Docs!</h1>
+	<h1>Angular ngdocs!</h1>
 </div>
 
 ## Contents
 
 ### API
-<a href="api">here</a>.
+<a href="api">API DOCUMENT</a>.
 
 ### Guide
-<a href="guide">here</a>.
+<a href="guide">GUIDELINE DOCUMENT</a>.
 

@@ -696,3 +696,12 @@ ul.events > li {
     padding-bottom:0px;
   }
 }
+
+/* Custom */
+.definition-table p {
+  margin: 10px 0;
+}
+
+.definition-table a {
+  margin-right: 10px;
+}

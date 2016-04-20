@@ -1,4 +1,7 @@
-Install:
+
+A small custom from https://github.com/Quramy/generator-ngdoc to support render ngdocs for Angular Project
+
+## Setup:
 
  1. clone ngdocs-boilerplate into your directory
  2. `cd docs`
@@ -27,4 +30,18 @@ Install:
     
  For clean previous build assets:
 
-    $ gulp docs:clean
+    `$ gulp docs:clean`
+
+## Gulp Task
+
++ Generate ngdoc and run document application on Node.js server.
+    `$ gulp docs:serve`
+
++ Build document application package, and place in directory 'docs/dist'.
+    `$ gulp docs:build`
+
++ Run document application package created by docs:build task on Node.js web server.
+    ` gulp docs:serve:dist`
+
++ Clean previous build assets:
+    `$ gulp docs:clean`
